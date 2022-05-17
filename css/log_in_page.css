@@ -749,3 +749,17 @@ button:not(:disabled),
   background-color: transparent !important;
 }
 /*# sourceMappingURL=custom.css.map */
+
+footer {
+  color: #f8f9fa;
+  float: right;
+}
+footer h3 {
+  margin-right: 2rem;
+}
+
+footer .help {
+  border: #fff;
+  border-radius: 0.7rem;
+  border-width: 0.2rem;
+}
