@@ -1,3 +1,10 @@
 .body {
   margin: 0px;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "nav buscador buscador" "nav transacciones balance";
+  -ms-grid-columns: 16fr 42fr 42fr;
+      grid-template-columns: 16fr 42fr 42fr;
+  -ms-grid-rows: 10vh 90vh;
+      grid-template-rows: 10vh 90vh;
 }
