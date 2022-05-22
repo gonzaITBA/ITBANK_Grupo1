@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="itbank, promociones, credito, prestamos, depositos, ahorro, sencillo"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./contacto.css" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="containerHeader">
+          <div class="container-fluid">
+            <div class="navbar-logo">
+              <a class="navbar-brand" href="#">
+                <img src="./img/logoItbankSinFondo.png" alt="logo itbank" />
+              </a>
+            </div>
+            <ul class="navbar-items">
+              <li class="Home"><a href="#">Home</a></li>
+              <li class="Login"><a href="#">Login Homebanking</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h1>Contáctenos</h1>
+      <h2>Datos personales:</h2>
+      <div class="form-group">
+        <label class="col-sm-2 control-label oculto" for="Surname"></label>
+        <div class="col-sm-10">
+          <input
+            class="form-control"
+            data-val="true"
+            data-val-length="Debe tener entre 2 y 50 caracteres"
+            data-val-length-max="50"
+            data-val-length-min="2"
+            data-val-required="Por favor ingrese su Apellido"
+            name="Surname"
+            placeholder="Apellido"
+            type="text"
+            value=""
+          />
+        </div>
+        <span
+          class="field-validation-valid"
+          data-valmsg-for="Surname"
+          data-valmsg-replace="true"
+        ></span>
+      </div>
+      <div class="form-group">
+        <label class="col-sm-2 control-label oculto" for="Names"></label>
+        <div class="col-sm-10">
+          <input
+            class="form-control"
+            data-val="true"
+            data-val-length="Debe tener entre 2 y 50 caracteres"
+            data-val-length-max="50"
+            data-val-length-min="2"
+            data-val-required="Por favor ingrese su/s nombre/s"
+            id="Names"
+            name="Names"
+            placeholder="Nombre"
+            type="text"
+            value=""
+          />
+        </div>
+        <span
+          class="field-validation-valid"
+          data-valmsg-for="Names"
+          data-valmsg-replace="true"
+        ></span>
+      </div>
+      <div class="form-group">
+        <label class="col-sm-2 control-label oculto" for="Document"></label>
+        <div class="col-sm-10">
+          <input
+            class="form-control doc"
+            data-val="true"
+            data-val-number="El campo debe contener números!"
+            data-val-regex="Sólo números, entre 4 y 10 dígitos"
+            data-val-regex-pattern="[0-9]{4,10}"
+            data-val-required="Por favor ingrese su Documento"
+            id="Document"
+            name="Document"
+            placeholder="Número de documento"
+            type="text"
+            value=""
+          />
+        </div>
+        <span
+          class="field-validation-valid"
+          data-valmsg-for="Document"
+          data-valmsg-replace="true"
+        ></span>
+      </div>
+      <div class="form-group">
+        <label class="col-sm-2 control-label oculto" for="Email"></label>
+        <div class="col-sm-10">
+          <input
+            class="form-control"
+            data-val-required="Por favor ingrese su Correo Electrónico"
+            name="Email"
+            placeholder="Correo Electrónico"
+            type="text"
+            value=""
+          />
+        </div>
+        <span
+          class="field-validation-valid"
+          data-valmsg-for="Email"
+          data-valmsg-replace="true"
+        ></span>
+        <div class="form-group">
+          <label class="col-sm-2 control-label oculto" for="Message"></label>
+          <div class="col-sm-10 textarea">
+            <textarea
+              class="form-control"
+              cols="20"
+              data-val="true"
+              data-val-length="El Mensaje debe tener entre 10 y 2500 dígitos"
+              data-val-length-max="2500"
+              data-val-length-min="10"
+              data-val-required="Por favor ingrese su Mensaje"
+              id="Message"
+              name="Message"
+              placeholder="Escriba su mensaje:"
+              rows="3"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-10">
+          <button
+            type="submit"
+            id="btn_contact_request_submit"
+            class="btn btn-default"
+          >
+            Enviar
+          </button>
+        </div>
+      </div>
+      <div class="numeroTelefono">
+        <p class="Mensaje">También puede contactarse por teléfono:</p>
+        <p class="num">0810-222-4822</p>
+      </div>
+    </main>
+    <footer>
+      <div class="row">
+        <ul>
+          <li><a href="#" class="legal">Protección de Datos Personales</a></li>
+          <li><a href="#" class="legal">Terminos y condiciones.</a></li>
+          <li><a href="#" class="legal">Información de Seguridad</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
